@@ -48,7 +48,7 @@ export const Badge = (props: Props) => {
             'background-color': props.badgeBackgroundColor ?? '#ffffff',
           }}
         >
-          {props.footer?.text ?? 'AI powered support. Need more help?'}
+          {props.footer?.text ?? 'Need more help?'}
           <a
             ref={liteBadge}
             href={props.footer?.companyLink ?? 'https://cross-checks.com/contact/'}
